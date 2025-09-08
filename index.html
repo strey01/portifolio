@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/kau.png" alt="avatar da kauana" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Kauana</p>
+        <h1>Estudante do 7º Colegio Colégio da Polícia Militar do Paraná </h1>
+        <p>Sou estudante do 7º Colégio da Polícia Militar do Paraná.Participo de diversas iniciativas voltadas à valorização da leitura em família, ao resgate da memória afetiva por meio da culinária e à promoção da saúde mental através do contato com a natureza.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Leitura</p>
+            <p class="badge bg-secondary">Culinareia</p>
+            <p class="badge bg-secondary">Trilhas</p>
+       
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/leitura.png" class="card-img-top" alt="livros">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto: Sabores da Escola</h5>
+                        <p class="card-text">Tem como objetivo estimular a criatividade, a valorização cultural e o aprendizado interdisciplinar dos alunos do Ensino Fundamental por meio da produção coletiva de um caderno de receitas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/receitas.png" class="card-img-top" alt="comida">
+                    <div class="card-body">
+                        <h5 class="card-title">Leitura em Família</h5>
+                        <p class="card-text">Tem como objetivo promover a valorização da leitura dentro do ambiente doméstico, incentivando pais, responsáveis e crianças a compartilharem momentos de leitura em conjunto.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/trilha.png" class="card-img-top" alt="Trilha">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto: Trilhas do Bem-Estar</h5>
+                        <p class="card-text">Busca promover a saúde mental e emocional por meio da vivência em ambientes naturais. A proposta consiste em realizar caminhadas guiadas em trilhas ecológicas, incentivando os participantes a se reconectarem com a natureza, reduzirem os níveis de estresse e desenvolverem hábitos de cuidado com o corpo e a mente.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Caderno de Receitas Colaborativo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> A iniciativa busca integrar conteúdos de diferentes áreas do conhecimento – como Língua Portuguesa, Matemática, Ciências e História – em um trabalho prático e lúdico, no qual os estudantes registram receitas de suas famílias, pesquisam pratos típicos da região e criam suas próprias versões.
+Mais do que apenas reunir receitas, o projeto promove a valorização da memória afetiva e da tradição culinária, fortalece o vínculo entre escola e família e desperta nas crianças habilidades de escrita, organização de informações, medidas e proporções, além de estimular a responsabilidade coletiva. Ao final, o caderno será organizado e compartilhado entre os alunos e suas famílias, podendo se tornar um material de referência e lembrança afetiva do período escolar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Histórias que Aproximam</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> A iniciativa parte do entendimento de que o hábito da leitura não se desenvolve apenas na escola, mas também no convívio familiar, onde o exemplo, o diálogo e a afetividade têm papel essencial na formação de leitores críticos e apaixonados pelos livros.
+A proposta consiste em criar estratégias que envolvam toda a família no ato de ler, por meio de rodas de leitura, empréstimos de livros com atividades de acompanhamento, oficinas de contação de histórias e campanhas de sensibilização sobre a importância da leitura diária. Além disso, busca-se estimular a criação de um cantinho da leitura em casa, onde o livro seja um objeto acessível, prazeroso e presente no cotidiano.
+Ao aproximar família e leitura, o projeto visa não apenas o desenvolvimento da imaginação, da criatividade e do repertório cultural das crianças, mas também o fortalecimento dos vínculos afetivos. Afinal, compartilhar histórias é também compartilhar tempo, atenção e amor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Conexão com a Natureza</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Estudos mostram que o contato direto com áreas verdes auxilia no combate à ansiedade, melhora o humor e fortalece a concentração. Além disso, a prática de caminhadas em grupo favorece a socialização, o espírito de cooperação e o sentimento de pertencimento. Durante as trilhas, serão realizados momentos de contemplação, exercícios de respiração e atividades de mindfulness, estimulando a atenção plena ao presente.
+O projeto pretende despertar a consciência ambiental e, ao mesmo tempo, oferecer aos participantes uma experiência transformadora de equilíbrio entre corpo, mente e natureza.</p>
+                     
+                   <p><a href="https://uniaodavitoria.portaldacidade.com/noticias/cultura/caminhada-noturna-no-morro-do-carvao-tera-nascer-do-sol-e-cafe-ao-ar-livre-4502" target="_blank">Acessar projeto</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
